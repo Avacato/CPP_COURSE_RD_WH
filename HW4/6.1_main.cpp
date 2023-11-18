@@ -43,40 +43,26 @@ void printMounth(int mNum) {
 	switch (checkMounth)
 	{
 	case Mounth::January:
-		std::cout << "January" << std::endl;
-		break;
 	case Mounth::February:
-		std::cout << "February" << std::endl;
+		std::cout << "Winter" << std::endl;
 		break;
 	case Mounth::March:
-		std::cout << "March" << std::endl;
-		break;
 	case Mounth::April:
-		std::cout << "April" << std::endl;
-		break;
 	case Mounth::May:
-		std::cout << "May" << std::endl;
+		std::cout << "Spring" << std::endl;
 		break;
 	case Mounth::June:
-		std::cout << "June" << std::endl;
-		break;
 	case Mounth::July:
-		std::cout << "July" << std::endl;
-		break;
 	case Mounth::August:
-		std::cout << "August" << std::endl;
+		std::cout << "Summer" << std::endl;
 		break;
 	case Mounth::September:
-		std::cout << "September" << std::endl;
-		break;
 	case Mounth::October:
-		std::cout << "October" << std::endl;
-		break;
 	case Mounth::November:
-		std::cout << "November" << std::endl;
+		std::cout << "Autumn" << std::endl;
 		break;
 	case Mounth::December:
-		std::cout << "December" << std::endl;
+		std::cout << "Winter" << std::endl;
 		break;
 	default:
 		std::cout << "WRONG entered!" << std::endl;
