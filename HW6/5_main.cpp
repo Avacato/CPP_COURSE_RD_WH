@@ -9,6 +9,7 @@ int main() {
 	bool numRequirement = false;
 	bool lowCharRequirement = false;
 
+	std::cout << "Hi! And wellcome to my program.\nThe program understands input from 0 to 9 and characters from a to z in lower case. To exit type '.'" << std::endl;
 	while (firstLoop)
 	{
 		std::cout << "Enter the Char: ";
