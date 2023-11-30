@@ -14,7 +14,7 @@ int main()
 	unsigned long long factorial = 1;
 
 	for (int i = 1; i <= factNum; i++) {
-		factorial = factorial * i;
+		factorial *= i;
 	}
 
 	std::cout << factorial << std::endl;

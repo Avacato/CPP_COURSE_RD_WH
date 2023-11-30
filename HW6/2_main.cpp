@@ -16,19 +16,23 @@ int main()
 	int c;
 
 	for (int i = 1; i <= usrNum; i++) {
+
+		std::string ending = ", ";
+
 		if (i == usrNum) {
-			std::cout << "F" << i << " = " << b << ".";
+			ending = ".";
 		}
 		else
 		{
-			std::cout << "F" << i << " = " << b << ", ";
+			ending = ", ";
 		}
+
+		std::cout << "F" << i << " = " << b << ending;
 
 		c = a + b;
 		a = b;
 		b = c;
 	}
-
 
 	return 0;
 }

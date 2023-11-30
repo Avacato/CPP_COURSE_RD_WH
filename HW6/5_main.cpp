@@ -18,14 +18,14 @@ int main() {
 		do {
 			std::cin >> userChar;
 
+			numRequirement = isdigit(userChar);
+			lowCharRequirement = islower(userChar);
+
 			if (userChar == '.') {
 				std::cout << "Goodbye!" << std::endl;
 				firstLoop = false;
-				return 0;
+				break;
 			}
-
-			numRequirement = (userChar >= 48 && userChar <= 57); //ascii numbers
-			lowCharRequirement = (userChar >= 97 && userChar <= 122); //ascii lowercase characters
 
 			if (!(numRequirement || lowCharRequirement)) {
 				std::cout << "Invalid character entered. Please try another one: ";
@@ -33,7 +33,7 @@ int main() {
 		} while (!(numRequirement || lowCharRequirement));
 
 		if (numRequirement) {
-			sum += static_cast<int>(userChar - 48);
+			sum += userChar - '0';
 			std::cout << "The current amount is: " << sum << std::endl;
 		}
 
