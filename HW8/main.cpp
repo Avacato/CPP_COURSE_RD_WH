@@ -27,15 +27,19 @@ int main() {
 
 	std::cout << "Loop from largest to smallest: ";
 	printNaturalNumbersA(userNum);
+	std::cout << std::endl;
 
 	std::cout << "Loop from smallest to largest: ";
 	printNaturalNumbersB(userNum);
+	std::cout << std::endl;
 
 	std::cout << "Recursion from largest to smallest: ";
 	printNaturalNumbersC(userNum);
+	std::cout << std::endl;
 
 	std::cout << "Recursion smallest to largest: ";
 	printNaturalNumbersD(userNum);
+	std::cout << std::endl;
 	std::cout << "<___3_END___>" << std::endl << std::endl << std::endl;
 
 	return 0;
