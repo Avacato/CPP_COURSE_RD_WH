@@ -23,10 +23,8 @@ int main()
 		return 0;
 	}
 
-	while (currentNumber <= lastNum)
-	{
-		std::cout << currentNumber << " ";
-		currentNumber += arithmeticProg;
+	for (int i = 0; i <= lastNum - 1; i++) {
+		std::cout << firstNum + i * arithmeticProg << " ";
 	}
 
 	return 0;

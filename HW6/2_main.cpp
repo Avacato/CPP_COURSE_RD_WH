@@ -14,17 +14,12 @@ int main()
 	int a = 0;
 	int b = 1;
 	int c;
+	std::string ending = ", ";
 
 	for (int i = 1; i <= usrNum; i++) {
 
-		std::string ending = ", ";
-
 		if (i == usrNum) {
 			ending = ".";
-		}
-		else
-		{
-			ending = ", ";
 		}
 
 		std::cout << "F" << i << " = " << b << ending;
