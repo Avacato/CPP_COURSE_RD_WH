@@ -20,7 +20,7 @@ int main() {
         int userNum = MAX_NUMBER + 1;
         int userAttempts = 0;
 
-        cout << "The program generates a random number..." << randomNumber << endl;
+        cout << "The program generates a random number..." << endl;
 
         while (userNum != randomNumber) {
 
