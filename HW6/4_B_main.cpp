@@ -2,26 +2,22 @@
 
 
 int main() {
-    int height, width;
+	int height, width;
 
-    std::cout << "Enter the height: ";
-    std::cin >> height;
+	std::cout << "Enter the height: ";
+	std::cin >> height;
 
-    std::cout << "Enter the width: ";
-    std::cin >> width;
+	std::cout << "Enter the width: ";
+	std::cin >> width;
 
-    for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
+	for (int i = 0; i < height; i++) {
 
-            if (j <= i) {
-                std::cout << "*";
-            }
-            else {
-                std::cout << "";
-            }
-        }
-        std::cout << std::endl;
-    }
+		for (int j = 0; j <= i && j < width; j++) {
+			std::cout << "*";
+		}
 
-    return 0;
+		std::cout << std::endl;
+	}
+
+	return 0;
 }

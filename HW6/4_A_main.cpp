@@ -11,14 +11,8 @@ int main() {
     std::cin >> width;
 
     for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
-
-            if (j >= i) {
-                std::cout << "*";
-            }
-            else {
-                std::cout << "";
-            }
+        for (int j = i; j < width; j++) {
+            std::cout << "*";
         }
         std::cout << std::endl;
     }

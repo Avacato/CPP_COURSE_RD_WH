@@ -45,7 +45,7 @@ void printCount(int a) {
 int factorialLoop(int a) {
 	unsigned long long factorialL = 1;
 
-	for (int i = 1; i <= a; i++) {
+	for (int i = 2; i <= a; i++) {
 		factorialL *= i;
 	}
 
@@ -53,8 +53,8 @@ int factorialLoop(int a) {
 }
 
 void printNaturalNumbersA(int a) {
-	for (int i = a, j = 1; i >= j; i--) {
-		std::cout << i << " ";
+	for (int j = 1; j <= a; a--) {
+		std::cout << a << " ";
 	}
 }
 
