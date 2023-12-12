@@ -7,7 +7,7 @@ int main()
 	const int arrSize = 10;
 	int num[arrSize]{ 0 };
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < arrSize; i++) {
 		std::cout << "Enter a element number " << i + 1 << ": ";
 		std::cin >> num[i];
 	}

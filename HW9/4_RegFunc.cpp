@@ -7,7 +7,7 @@ void parseStringLetters(const char str[], int& vowelsCount, int& consonantsCount
     for (int i = 0; str[i] != '\0'; ++i) {
         char currentChar = std::tolower(str[i]);
 
-        if (islower(currentChar)) {
+        if (isalpha(currentChar)) {
             if (currentChar == 'a' || currentChar == 'e' || currentChar == 'i' ||
                 currentChar == 'o' || currentChar == 'u') {
                 ++vowelsCount;

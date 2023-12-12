@@ -2,10 +2,11 @@
 #include "2_RegHeader.h"
 
 int main() {
-    char usrStr[255];
+    const int STR_SIZE = 255;
+    char usrStr[STR_SIZE];
 
     std::cout << "Enter the string: ";
-    std::cin.getline(usrStr, 255);
+    std::cin.getline(usrStr, STR_SIZE);
 
     toUppercase(usrStr);
 
