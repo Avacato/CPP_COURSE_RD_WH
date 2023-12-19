@@ -14,5 +14,5 @@ BestScore та Attempts реалізовано за допомогою змін�
 
 ## Images
 
-![pic1.](/HW13_1.JPG "This is a sample image.")
-![pic2.](/HW13_2.JPG "This is a sample image.")
+![pic1.](/HW13/HW13_1.JPG "This is a sample image.")
+![pic2.](/HW13/HW13_2.JPG "This is a sample image.")
